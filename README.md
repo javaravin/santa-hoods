@@ -24,3 +24,19 @@ Ex:
     "error": "present_weights value must be valid"
 }
 
+
+Deployement:
+
+Aproach 1:
+
+Run below commads:
+ Create image:
+ docker image build -t santa-hoods .
+ 
+ Deploye Image
+ docker container run --name producer -p 8080:8080 -d employee-producer
+
+Approach 2:
+ Run directly compose file
+ 
+ 
