@@ -34,7 +34,8 @@ Run below commads:
  docker image build -t santa-hoods .
  
  Deploye Image
- docker container run --name producer -p 8080:8080 -d employee-producer
+ docker container run --name santa-hoods -p 8080:8080 -d santa-hoods
+ 
 
 Approach 2:
  Run directly compose file
